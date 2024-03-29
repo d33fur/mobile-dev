@@ -1,6 +1,6 @@
 FROM swift:latest AS build
 
-COPY hello.swift /src/
+COPY labs/lab1/hello.swift /src/
 
 WORKDIR /src/
 
