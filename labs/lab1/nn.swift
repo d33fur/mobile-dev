@@ -12,7 +12,7 @@ for _ in 0...10000 {
     weight += learningRate * inputValue * error
 }
 
-let testInput: Double = 2.0
+let testInput = 5.0
 let result = weight * testInput
 
 print("Expected: \(target * testInput)")
