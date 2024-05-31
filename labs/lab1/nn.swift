@@ -15,6 +15,5 @@ for _ in 0...10000 {
 let testInput = 5.0
 let result = weight * testInput
 
-
 print("Expected: \(target * testInput)")
 print("Result: \(result)")
